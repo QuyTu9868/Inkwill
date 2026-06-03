@@ -260,11 +260,11 @@ export default function VaultsPage() {
             <span className="text-lg font-medium tracking-wide">
               ink<span className="text-[#c9a96e]">will</span>
             </span>
-            <div className="w-7 h-7 rounded-md border border-white/10 flex items-center justify-center">
+            <div className="w-11 h-11 rounded-md border border-white/10 flex items-center justify-center">
               <img
                 src="/logo_active.png"
                 alt="logo"
-                className="w-5 h-5 object-contain"
+                className="w-9 h-9 object-contain"
                 onError={(e: React.SyntheticEvent<HTMLImageElement>) => (e.currentTarget.style.display = 'none')}
               />
             </div>
@@ -475,11 +475,11 @@ export default function VaultsPage() {
           <span className="text-lg font-medium tracking-wide">
             ink<span className="text-[#c9a96e]">will</span>
           </span>
-          <div className="w-7 h-7 rounded-md border border-white/10 flex items-center justify-center">
+          <div className="w-11 h-11 rounded-md border border-white/10 flex items-center justify-center">
             <img
-              src="/logo.png"
+              src="/logo_active.png"
               alt="logo"
-              className="w-5 h-5 object-contain"
+              className="w-9 h-9 object-contain"
               onError={(e: React.SyntheticEvent<HTMLImageElement>) => (e.currentTarget.style.display = 'none')}
             />
           </div>

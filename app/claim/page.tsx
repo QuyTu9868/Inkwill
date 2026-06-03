@@ -97,11 +97,11 @@ const message = await decryptVault(myRecipient.vaultUuid, walletClient)
           <button onClick={() => router.push('/')} className="text-lg font-medium tracking-wide">
             ink<span className="text-[#c9a96e]">will</span>
           </button>
-          <div className="w-7 h-7 rounded-md border border-white/10 flex items-center justify-center">
+          <div className="w-11 h-11 rounded-md border border-white/10 flex items-center justify-center">
             <img
               src={isTriggered ? "/logo_triggered.png" : "/logo_active.png"}
               alt="Inkwill logo"
-              className="w-5 h-5 object-contain"
+              className="w-9 h-9 object-contain"
               onError={(e) => (e.currentTarget.style.display = 'none')}
             />
           </div>
@@ -135,7 +135,7 @@ const message = await decryptVault(myRecipient.vaultUuid, walletClient)
 
         {/* SIGN IN */}
         {!ready ? (
-          <div className="w-5 h-5 border-2 border-[#c9a96e]/30 border-t-[#c9a96e] rounded-full animate-spin mb-10" />
+          <div className="w-9 h-9 border-2 border-[#c9a96e]/30 border-t-[#c9a96e] rounded-full animate-spin mb-10" />
         ) : !authenticated ? (
           <button
             onClick={login}
@@ -166,7 +166,7 @@ const message = await decryptVault(myRecipient.vaultUuid, walletClient)
             {/* Đang load */}
             {ownerAddress && isLoading && (
               <div className="flex justify-center py-12">
-                <div className="w-5 h-5 border-2 border-[#c9a96e]/30 border-t-[#c9a96e] rounded-full animate-spin" />
+                <div className="w-9 h-9 border-2 border-[#c9a96e]/30 border-t-[#c9a96e] rounded-full animate-spin" />
               </div>
             )}
 

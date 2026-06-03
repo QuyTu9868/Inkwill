@@ -22,8 +22,8 @@ export default function LandingPage() {
             ink<span className="text-[#c9a96e]">will</span>
           </span>
           {/* LOGO PLACEHOLDER */}
-          <div className="w-7 h-7 rounded-md border border-white/10 flex items-center justify-center">
-            <img src="/logo_active.png" alt="Inkwill logo" className="w-5 h-5 object-contain" onError={(e) => (e.currentTarget.style.display = 'none')} />
+          <div className="w-11 h-11 rounded-md border border-white/10 flex items-center justify-center">
+            <img src="/logo_active.png" alt="Inkwill logo" className="w-9 h-9 object-contain" onError={(e) => (e.currentTarget.style.display = 'none')} />
           </div>
         </div>
         <div className="flex items-center gap-3">
